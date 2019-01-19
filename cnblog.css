@@ -9,7 +9,7 @@
 body {
   color: #586F76;
   background: url(https://github.com/UyCode/Mycnblogs/blob/master/pictures/o_theme-yellow.jpg) no-repeat center 0 #FFF4E6;
-  font-family: Verdana, Arial, Helvetica, sans-serif, "微软雅黑";
+  font-family: "Arabic Typesetting",Verdana, Arial, Helvetica, sans-serif, "微软雅黑";
   font-size: 13px;
   line-height: 1.8;
 }
@@ -103,8 +103,8 @@ blockquote {
 }
 
 #blogTitle h2 {
-  font-size: 18px;
-  font-family: Brush Script MT, serif, "微软雅黑";
+  font-size: 28px;
+  font-family: "Arabic Typesetting","Agency FB", serif, "微软雅黑";
 }
 
 /**
