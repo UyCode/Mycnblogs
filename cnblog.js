@@ -8,10 +8,10 @@ function addImage() {
   $('.blog_comment_body').append(spen_html);
 
   $('.blog_comment_body')
-    .before('<div class=\'body_right\' style=\'float: left;\'><a target=\'_blank\'><img  /></a></div>');
+      .before('<div class=\'body_right\' style=\'float: left;\'><a target=\'_blank\'><img  /></a></div>');
   var feedbackCon = $('.feedbackCon').addClass('clearfix');
   for (var i = 0; i < feedbackCon.length; i++) {
-    var span = $(feedbackCon[i]).find('span:last')[0].innerHTML || 'https://www.cnblogs.com/images/cnblogs_com/Ahmat/1386901/o_5AAC17EF811DD2EEFF7E2AFE1A8CBF00.jpg';
+    var span = $(feedbackCon[i]).find('span:last')[0].innerHTML || 'http://pic.cnitblog.com/face/sample_face.gif';
     $(feedbackCon[i]).find('.body_right img').attr('src', span);
     var href = $(feedbackCon[i]).parent().find('.comment_date').next().attr('href');
     $(feedbackCon[i]).find('.body_right a').attr('href', href);
@@ -117,7 +117,7 @@ function GenerateContentList() {
   }
 
   $($('#cnblogs_post_body')[len - 1])
-    .append('<div id=\'signature\'><p>作者：<a href=\'http://www.cnblogs.com/Ahmat/\'>R.Ahmatjan</a></br>欢迎任何形式的转载，但请务必注明出处。</br>限于本人水平，如果文章和代码有表述不当之处，还请不吝赐教。</p></div>');
+      .append('<div id=\'signature\'><p>作者：<a href=\'http://www.cnblogs.com/Ahmat/\'>R.Ahmatan</a></br>欢迎任何形式的转载，但请务必注明出处。</br>限于本人水平，如果文章和代码有表述不当之处，还请不吝赐教。</p></div>');
 }
 /*************************************************************************************
  * 根据文章中标题自动生成目录 END
