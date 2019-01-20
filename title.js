@@ -27,7 +27,6 @@ function generateBlogTitle() {
 
   var subTitle=document.createElement("h2");
   subTitle.innerHTML='Talk is cheap, show me the code.';
-  subTitle.innerHTML='Talk is cheap, show me the code.';
   document.getElementById("blogTitle").appendChild(subTitle);
 }
 

@@ -11,7 +11,7 @@ function addImage() {
     .before('<div class=\'body_right\' style=\'float: left;\'><a target=\'_blank\'><img  /></a></div>');
   var feedbackCon = $('.feedbackCon').addClass('clearfix');
   for (var i = 0; i < feedbackCon.length; i++) {
-    var span = $(feedbackCon[i]).find('span:last')[0].innerHTML || 'https://github.com/UyCode/Mycnblogs/blob/master/pictures/header.jpg';
+    var span = $(feedbackCon[i]).find('span:last')[0].innerHTML || 'https://www.cnblogs.com/images/cnblogs_com/Ahmat/1386901/o_5AAC17EF811DD2EEFF7E2AFE1A8CBF00.jpg';
     $(feedbackCon[i]).find('.body_right img').attr('src', span);
     var href = $(feedbackCon[i]).parent().find('.comment_date').next().attr('href');
     $(feedbackCon[i]).find('.body_right a').attr('href', href);
