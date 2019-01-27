@@ -8,10 +8,10 @@
 
 #ui .text {
     position: absolute;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ffffff;
     line-height: 2rem;
-    font-family: "隶书",Agency FB, serif;
+    font-family: "Agency FB Bold", serif;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;

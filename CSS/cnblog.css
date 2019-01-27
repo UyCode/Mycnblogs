@@ -9,7 +9,7 @@
 body {
     color: #586F76;
     background: url(http://images.cnblogs.com/cnblogs_com/Ahmat/1386901/o_theme-yellow.jpg) no-repeat center 0 #FFF4E6;
-    font-family: Verdana, Arial, Helvetica, sans-serif, "微软雅黑";
+    font-family: Verdana, Arial,"Arabic Typesetting", Helvetica, sans-serif, "微软雅黑";
     font-size: 13px;
     line-height: 1.8;
 }
@@ -99,11 +99,11 @@ blockquote {
 #Header1_HeaderTitle {
     font-size: 24px;
     color: #DE6F64;
-    font-family: "隶书", serif;
+    font-family: "隶书","Arabic Typesetting",serif;
 }
 
 #blogTitle h2 {
-    font-size: 18px;
+    font-size: 28px;
     font-family: "Agency FB","Arabic Typesetting", serif, "微软雅黑";
 }
 

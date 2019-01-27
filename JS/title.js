@@ -26,7 +26,7 @@ function generateBlogTitle() {
     document.getElementById("blogTitle").appendChild(root);
 
     var subTitle=document.createElement("h2");
-    subTitle.innerHTML='Talk is cheap, show me the code.    كومپىيوتېر بىلىملىرى بېلوگى.';
+    subTitle.innerHTML='Talk is cheap, show me the code.                                          كومپىيوتېر بىلىملىرى بېلوگى';
     document.getElementById("blogTitle").appendChild(subTitle);
 }
 
